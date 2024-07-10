@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 
@@ -123,6 +124,10 @@ main {
   /* justify-content: center; */
   /* align-items: center; */
   text-align: center;
+
+  border-radius: 16px;
+
+/* background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email); */
 }
 .support .heading_section{
   text-align: center;
@@ -131,4 +136,27 @@ main {
 }
 .support .heading_section h2, p{
   color: #fff;
+}
+
+
+
+.main_footer{
+height: 502px;
+background: rgba(19, 19, 24, 0.05);
+padding-top: 10px;
+margin-top: 50px;
+padding: 100px;
+}
+.main_footer p{
+  color: #000;
+  text-align: center;
+}
+.main_footer .footer{
+  display: flex;
+  justify-content: space-between;
+}
+.main_footer .footer ul{
+  display: flex;
+  gap: 20px;
+  
 }
