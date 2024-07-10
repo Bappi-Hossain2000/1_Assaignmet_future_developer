@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  font-family: "Azeret Mono", monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* nav section */
+header nav {
+  width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+.hero_section {
+  width: 1440px;
+  height: 652px;
+  margin: 10px auto;
+  background-image: url(assets/Hero-bg.png);
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
+}
+
+/* main */
+main {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+
+/* main develop_section*/
+.develop_section {
+  width: 1140px;
+  margin: 82px auto;
+  background: #fafafb;
+}
+.develop_section .heading_section {
+  text-align: center;
+  
+}
+
+.section_1 {
+  display: flex;
+  margin: 48px;
+  justify-content: space-between;
+  background: #fff;
+}
+.section_2 {
+  display: flex;
+  margin: 48px;
+  /* justify-content: space-between; */
+  background: #fff;
+}
+.section_3 {
+  display: flex;
+  margin: 48px;
+  justify-content: space-between;
+  background: #fff;
+}
+
+/* my_inspiration */
+.my_inspiration {
+  width: 1140px;
+  margin: 82px auto;
+}
+.my_inspiration .heading_section {
+  text-align: center;
+}
+/* My Next Target */
+.my_next_target {
+  
+}
+.my_next_target .heading_section {
+  text-align: center;
+  margin-bottom: 48px;
+
+}
+.my_next_target .all_box {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+.my_next_target .box_1 {
+  height: 299px;
+  background: #fff6f3;
+  padding: 40px;
+  line-height: 24px;
+  border-radius: 20px;
+  
+}
+.my_next_target .box_2 {
+  height: 299px;
+  background: #f2f6fe;
+  padding: 40px;
+  line-height: 24px;
+  border-radius: 20px;
+}
+.my_next_target .box_3 {
+  height: 299px;
+  background: #fffdf2;
+  padding: 40px;
+  line-height: 24px;
+  border-radius: 20px;
+}
+
+.my_next_target .all_box img, h2, p, a {
+  margin-top: 24px;
+}
+
+
+/* I need Support */
+.support {
+  width: 1140px;
+  height: 313px;
+  margin: 10px auto;
+  background-image: url(assets/handshake.jpg);
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  text-align: center;
+}
+.support .heading_section{
+  text-align: center;
+  align-items: center;
+  columns: #fff;
+}
+.support .heading_section h2, p{
+  color: #fff;
+}
