@@ -335,6 +335,9 @@ padding: 100px;
   color: #000;
   text-align: center;
 }
+.main_footer .fm{
+  margin-bottom: 50px;
+}
 .main_footer .footer{
   display: flex;
   justify-content: space-between;
