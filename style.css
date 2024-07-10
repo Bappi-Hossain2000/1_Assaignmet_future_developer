@@ -171,6 +171,7 @@ line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
 margin-bottom: 80px;
+
 }
 .my_inspiration iframe {
   /* text-align: center; */
@@ -216,7 +217,7 @@ margin-bottom: 80px;
   border-radius: 20px;
 }
 
-.my_next_target .all_box h2, p, a {
+.my_next_target .all_box h2, p{
   margin-top: 24px;
 }
 .my_next_target .all_box h2{
